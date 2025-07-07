@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hindi Movies 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #ffcc00;
+    }
+    nav {
+      background: #111;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #ffcc00;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .movie {
+      background: #222;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .movie img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 5px;
+    }
+    .movie-title {
+      font-size: 20px;
+      color: #ffcc00;
+      margin-top: 10px;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hindi Movies 2</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Latest Movies</a>
+    <a href="#">Bollywood</a>
+    <a href="#">South Hindi Dubbed</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="movie">
+      <img src="https://via.placeholder.com/300x450.png?text=Movie+Poster" alt="Movie Poster">
+      <div class="movie-title">Jawan (2023) Hindi Full Movie</div>
+      <p>Watch now in HD. Action | Drama | Thriller</p>
+    </div>
+
+    <div class="movie">
+      <img src="https://via.placeholder.com/300x450.png?text=Movie+Poster" alt="Movie Poster">
+      <div class="movie-title">Animal (2023) Hindi Movie</div>
+      <p>Starring Ranbir Kapoor. Full HD Print.</p>
+    </div>
+
+    <!-- Add more movie blocks as needed -->
+  </div>
+
+  <footer>
+    &copy; 2025 Hindi Movies 2. All rights reserved.
+  </footer>
+
+</body>
+</html>
